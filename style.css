@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(red, orange, white, aqua, blue );
+    /* background-color: black;  */
+       
+}
+.calc{
+    border-radius: 25px;
+    background-color: black;
+    padding: 2vw 5vw;
+}
+.btn:hover{
+    color: aqua;
+}
+.btn{
+    cursor: pointer;
+}
+.input{
+    padding-top: 7px;
+}
